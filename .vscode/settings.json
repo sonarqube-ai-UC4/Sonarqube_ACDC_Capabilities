@@ -1,0 +1,8 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "https-s2api3-pp-s2-eu-capgemini-com-cci-",
+        "projectKey": "CCI00001-DEMO"
+    },
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

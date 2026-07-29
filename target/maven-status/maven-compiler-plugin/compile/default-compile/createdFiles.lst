@@ -1,0 +1,9 @@
+com\example\onboarding\controller\CustomerOnboardingController.class
+com\example\onboarding\dto\UpdateStatusRequest.class
+com\example\onboarding\dto\CreateCustomerRequest.class
+com\example\onboarding\repository\CustomerOnboardingRepository.class
+com\example\onboarding\dto\CustomerResponse.class
+com\example\onboarding\OnboardingApplication.class
+com\example\onboarding\service\CustomerOnboardingService.class
+com\example\onboarding\model\CustomerOnboarding.class
+com\example\onboarding\model\OnboardingStatus.class

@@ -1,0 +1,9 @@
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\controller\CustomerOnboardingController.java
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\dto\CreateCustomerRequest.java
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\dto\CustomerResponse.java
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\dto\UpdateStatusRequest.java
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\model\CustomerOnboarding.java
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\model\OnboardingStatus.java
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\OnboardingApplication.java
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\repository\CustomerOnboardingRepository.java
+C:\Users\rishikpa\SonarQube_ACDC_Capabilities\src\main\java\com\example\onboarding\service\CustomerOnboardingService.java
