@@ -40,7 +40,7 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=CCI00001-Ai_Demo1 -Dsonar.projectName='CCI00001-Ai_Demo1'
+        run: mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:5.7.0.6970:sonar -Dsonar.projectKey=CCI00001-Ai_Demo1 -Dsonar.projectName='CCI00001-Ai_Demo1'
       
       # - name: Build and analyze with SonarQube
       #   run: | 
