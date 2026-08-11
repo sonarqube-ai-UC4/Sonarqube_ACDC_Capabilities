@@ -37,4 +37,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=sonarqube-ai-UC4_Sonarqube_ACDC_Capabilities_dd070e69-215c-4cba-b004-8a554f063b98 -Dsonar.projectName='Sonarqube_ACDC_Capabilities'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=CCI00001-Ai_Demo1 -Dsonar.projectName='CCI00001-Ai_Demo1'
