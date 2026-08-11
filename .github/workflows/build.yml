@@ -35,10 +35,17 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-      - name: Build and analyze with SonarQube
-        run: | 
-           mvn clean install sonar:sonar \
-           -Dsonar.projectKey=CCI00001-Ai_Demo1 \
-           -Dsonar.projectName='CCI00001-Ai_Demo1' \
-           -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
-           -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+
+      - name: Build and analyze
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=CCI00001-Ai_Demo1 -Dsonar.projectName='CCI00001-Ai_Demo1'
+      
+      # - name: Build and analyze with SonarQube
+      #   run: | 
+      #      mvn clean install sonar:sonar \
+      #      -Dsonar.projectKey=CCI00001-Ai_Demo1 \
+      #      -Dsonar.projectName='CCI00001-Ai_Demo1' \
+      #      -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
+      #      -Dsonar.login=${{ secrets.SONAR_TOKEN }}
